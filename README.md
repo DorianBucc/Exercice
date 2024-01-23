@@ -107,7 +107,7 @@ Consigne sous forme d'algorithme.
 
 ## Exercice 4
 
-- Travail sur les threads, recusive simple et entrée console.
+- Travail sur les threads, recursive simple et entrée console.
 
 #### Consigne
 
