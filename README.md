@@ -43,9 +43,9 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
     -------------
 ```
 
----
-
 </br>
+
+---
 
 ## Exercice 2
 
@@ -69,9 +69,9 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
     Bonjour le monde
 ```
 
----
-
 </br>
+
+---
 
 ## Exercice 3
 
@@ -119,9 +119,9 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
     Man 80 km/h
 ```
 
----
-
 </br>
+
+---
 
 ## Exercice 4
 
@@ -137,9 +137,9 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 ```
 ```
 
----
-
 </br>
+
+---
 
 ## Exercice 5
 
@@ -155,9 +155,9 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 ```
 ```
 
----
-
 </br>
+
+---
 
 ## Exercice 6
 - Introduction.
