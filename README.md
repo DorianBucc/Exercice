@@ -7,9 +7,10 @@ Consigne sous forme d'algorithme.
 
 Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/DorianBucc/Project)
 
----
 
 </br>
+
+---
 
 ## Exercice 1
 
