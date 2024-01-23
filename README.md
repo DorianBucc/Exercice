@@ -125,12 +125,11 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 
 ## Exercice 4
 
-- Travail sur les threads, recursive simple et entrée console.
+- Travail sur les threads, recursive simple et une simple entrée console.
 
 #### Consigne
 
 ```
-
     booléen fonction isPremierRec(var, diviseur)
         si diviseur >= var alors
             retourne vrai
