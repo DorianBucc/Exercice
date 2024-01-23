@@ -1,10 +1,12 @@
 # Exercice
-Exercice de base pour tous language
+Exercice de base pour tous language.
+
+Consigne sous forme d'algorithme.
 
 ---
 
 ## Exercice 1
-- Travaille sur les boucles, le tableau simple et affichage console
+- Travaille sur les boucles, le tableau simple et affichage console.
 
 #### Consigne
 
@@ -37,7 +39,7 @@ Exercice de base pour tous language
 
 ## Exercice 2
 
-- Travaille sur les references (pointeur), l'utilisation des strings et fonction
+- Travaille sur les references (pointeur), l'utilisation des strings et fonction.
     
 #### Consigne
 
@@ -61,7 +63,7 @@ Exercice de base pour tous language
 
 ## Exercice 3
 
-- Travaille sur les objets, une interface et un tableau plus complexe
+- Travaille sur les objets, une interface et un tableau plus complexe.
 
 #### Consigne
 
@@ -104,7 +106,7 @@ Exercice de base pour tous language
 ---
 
 ## Exercice 4
-- Introduction
+- Introduction.
 
 #### Consigne
 
