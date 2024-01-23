@@ -44,12 +44,12 @@ Consigne sous forme d'algorithme.
 #### Consigne
 
 ```
-    fonction mod (var):
+    fonction modification(var):
         var <- var + " le monde"
 
     fonction main:
         var <- "Bonjour"
-        mod(var)
+        modification(var)
         afficher(var)
 ```
 

@@ -16,7 +16,7 @@
 #include <iostream>
 #include <string>
 
-void mod(std::string* var){
+void modification(std::string* var){
     // (*var).append(" le monde");
     var->append(" le monde");
     return;
@@ -26,7 +26,7 @@ void mod(std::string* var){
 int main()
 {
     std::string str = "Bonjour";
-    mod(&str);
+    modification(&str);
     std::cout << str << std::endl;
     return 0;
 }

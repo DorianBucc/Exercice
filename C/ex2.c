@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void mod(char* var){
+void modification(char* var){
     char* temp = " le monde";
     strncat(var,temp,strlen(temp));
     return;
@@ -11,7 +11,7 @@ void mod(char* var){
 int main()
 {
     char str[18] = "Bonjour";   // augmenter la taille pour que strcat ajouter le nombre souhaiter
-    mod(str);
+    modification(str);
     printf("%s\n",str);
     return 0;
 }
