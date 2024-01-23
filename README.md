@@ -3,9 +3,14 @@ Exercice de base pour tous language.
 
 Consigne sous forme d'algorithme.
 
+</br>
+
+Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/DorianBucc/Project)
+
 ---
 
 ## Exercice 1
+
 - Travail sur les boucles, le tableau simple et affichage console.
 
 #### Consigne
