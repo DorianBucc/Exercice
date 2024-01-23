@@ -1,28 +1,3 @@
-/* Consigne :
-    fonction main:
-        var tab // taille 3x3
-        pour i < 3 faire
-            afficher("-------------")
-            pour y < 3 faire
-                afficher("| " + tab(i,y) + " ")
-            fin pour
-            afficher("|")
-        fin pour
-        afficher("-------------")
-
-   Resultat :
-
-    -------------
-    | 0 | 0 | 0 |
-    -------------
-    | 0 | 1 | 0 |
-    -------------
-    | 0 | 0 | 0 |
-    -------------
-
-*/
-
-
 #include <iostream>
 int main()
 {

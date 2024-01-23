@@ -69,19 +69,23 @@ Consigne sous forme d'algorithme.
 
 ```
     interface Vitesse:
-        abstract string Vmax()
+        abstraite string Vmax()
 
-    class voiture implémente Vitesse:
+    abstraite class Vehicule:
         string name
         string vitesse
+
+    class voiture hérite Vehicule implémente Vitesse:
+        voiture(name):
+            vitesse = " 130 km/h"
     
-    class moto implémente Vitesse:
-        string name
-        string vitesse
+    class moto hérite Vehicule implémente Vitesse:
+        voiture(name):
+            vitesse = " 200 km/h"
     
-    class camion implémente Vitesse:
-        string name
-        string vitesse
+    class camion hérite Vehicule implémente Vitesse:
+        voiture(name):
+            vitesse = " 80 km/h"
     
     fonction main :
         const var tailleTab     // tailleTab = 3

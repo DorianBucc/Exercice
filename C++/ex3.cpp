@@ -1,40 +1,3 @@
-/* Consigne :
-
-    interface Vitesse:
-        abstract string Vmax()
-
-    class voiture implémente Vitesse:
-        string name
-        string vitesse
-    
-    class moto implémente Vitesse:
-        string name
-        string vitesse
-    
-    class camion implémente Vitesse:
-        string name
-        string vitesse
-    
-    fonction main :
-        const var tailleTab
-        var Tab
-        tab(0) <- voiture("C2")
-        tab(1) <- moto("R1")
-        tab(2) <- camion("Man")
-        
-        pour i < 3 faire
-            afficher(tab(i)->Vmax())
-        fin pour
-
-   Resultat :
-
-    C3 130 km/h
-    R1 200 km/h
-    Man 80 km/h
-
-*/
-
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -45,45 +8,52 @@ public:
     virtual std::string Vmax() const = 0;
 };
 
-class voiture : public Vitesse
-{
+class Vehicule {
 private:
-    std::string name;
-    std::string vitesse = " 130 km/h";
-public:
-    std::string Vmax() const override{
-        return name + vitesse;
+    std::string _name;
+protected:
+    std::string vitesse;
+    void setName(std::string v){
+        this->_name = v;
     }
+    std::string getName() const{
+        return this->_name;
+    }
+};
+
+class voiture : public Vitesse, protected Vehicule
+{
+public:
     voiture(std::string name){
-        this->name = name;
+        this->setName(name);
+        this->vitesse = " 130 km/h";
+    }
+    std::string Vmax() const override{
+        return this->getName() + vitesse;
     }
 };
 
-class moto : public Vitesse
+class moto : public Vitesse, protected Vehicule
 {
-private:
-    std::string name;
-    std::string vitesse = " 200 km/h";
 public:
-    std::string Vmax() const override{
-        return name + vitesse;
-    }
     moto(std::string name){
-        this->name = name;
+        this->setName(name);
+        this->vitesse = " 200 km/h";
+    }
+    std::string Vmax() const override{
+        return this->getName() + vitesse;
     }
 };
 
-class camion : public Vitesse
+class camion : public Vitesse, protected Vehicule
 {
-private:
-    std::string name;
-    std::string vitesse = " 80 km/h";
 public:
-    std::string Vmax() const override{
-        return name + vitesse;
-    }
     camion(std::string name){
-        this->name = name;
+        this->setName(name);
+        this->vitesse = " 80 km/h";
+    }
+    std::string Vmax() const override{
+        return this->getName() + vitesse;
     }
 };
 

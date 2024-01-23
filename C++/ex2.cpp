@@ -1,18 +1,3 @@
-/* Consigne :
-    fonction mod (var):
-        var <- var+" le monde"
-
-    fonction main:
-        var <- "Bonjour"
-        mod(var)
-        afficher(var) // affiche Bonjour le monde 
-
-   Resultat :
-
-    Bonjour le monde
-*/
-
-
 #include <iostream>
 #include <string>
 
