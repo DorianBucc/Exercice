@@ -16,9 +16,10 @@
 #include <iostream>
 #include <string>
 
-int mod(std::string* var){
+void mod(std::string* var){
     // (*var).append(" le monde");
     var->append(" le monde");
+    return;
 }
 
 
