@@ -9,6 +9,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 
 ---
 
+</br>
+
 ## Exercice 1
 
 - Travail sur les boucles, le tableau simple et affichage console.
@@ -42,6 +44,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 
 ---
 
+</br>
+
 ## Exercice 2
 
 - Travail sur les references (pointeur), l'utilisation des strings et fonction.
@@ -65,6 +69,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 ```
 
 ---
+
+</br>
 
 ## Exercice 3
 
@@ -114,6 +120,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 
 ---
 
+</br>
+
 ## Exercice 4
 
 - Travail sur les threads, recursive simple et entrée console.
@@ -130,6 +138,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 
 ---
 
+</br>
+
 ## Exercice 5
 
 - Travail sur les dictionnaires/maps, objet heritage, attribut statique.
@@ -145,6 +155,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 ```
 
 ---
+
+</br>
 
 ## Exercice 6
 - Introduction.
