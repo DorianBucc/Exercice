@@ -63,7 +63,7 @@ Consigne sous forme d'algorithme.
 
 ## Exercice 3
 
-- Travail sur les objets, une interface et un tableau plus complexe. (langage pas fait pour : C)
+- Travail sur les objets, une interface et un tableau plus complexe. (langage pas fait pour : C, rust)
 
 #### Consigne
 
