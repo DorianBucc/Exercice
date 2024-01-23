@@ -6,7 +6,7 @@ Consigne sous forme d'algorithme.
 ---
 
 ## Exercice 1
-- Travaille sur les boucles, le tableau simple et affichage console.
+- Travail sur les boucles, le tableau simple et affichage console.
 
 #### Consigne
 
@@ -39,7 +39,7 @@ Consigne sous forme d'algorithme.
 
 ## Exercice 2
 
-- Travaille sur les references (pointeur), l'utilisation des strings et fonction.
+- Travail sur les references (pointeur), l'utilisation des strings et fonction.
     
 #### Consigne
 
@@ -63,7 +63,7 @@ Consigne sous forme d'algorithme.
 
 ## Exercice 3
 
-- Travaille sur les objets, une interface et un tableau plus complexe.
+- Travail sur les objets, une interface et un tableau plus complexe. (langage pas fait pour : C)
 
 #### Consigne
 
@@ -106,6 +106,38 @@ Consigne sous forme d'algorithme.
 ---
 
 ## Exercice 4
+
+- Travail sur les threads, recusive simple et entrée console.
+
+#### Consigne
+
+```
+```
+
+#### Résultat
+
+```
+```
+
+---
+
+## Exercice 5
+
+- Travail sur les dictionnaires/maps, objet heritage, attribut statique.
+
+#### Consigne
+
+```
+```
+
+#### Résultat
+
+```
+```
+
+---
+
+## Exercice 6
 - Introduction.
 
 #### Consigne
