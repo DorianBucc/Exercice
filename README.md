@@ -17,11 +17,11 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 
 ```
     fonction main:
-        var tab         // taille 3x3
+        tab[]         // taille 3x3
         pour i < 3 faire
             afficher("-------------")
             pour y < 3 faire
-                afficher("| " + tab(i,y) + " ")
+                afficher("| " + tab[i,y] + " ")
             fin pour
             afficher("|")
         fin pour
@@ -93,8 +93,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
             vitesse = " 80 km/h"
     
     fonction main :
-        const var tailleTab     // tailleTab = 3
-        var Tab
+        const tailleTab     // tailleTab = 3
+        Tab[]
         tab(0) <- voiture("C2")
         tab(1) <- moto("R1")
         tab(2) <- camion("Man")
@@ -121,11 +121,65 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 #### Consigne
 
 ```
+
+    booléen fonction isPremierRec(var, diviseur)
+        si diviseur >= var alors
+            retourne vrai
+        sinon si var mod diviseur = 0 alors
+            retourne faux
+        fin si
+        retourne isPremierRec(var, diviseur+2)
+    
+    booléen fonction isPremier(var)
+        si var mod 2 = 0 alors
+            retourne faux
+        retourne isPremierRec(var, 3)
+
+    fonction_du_thread()
+        ecrire "Entrée les nombres du tableau, pour terminer taper 0"
+        entier tab[] // tableau d'entier
+        pour i < tailletableau faire
+            lire var
+            si var = 0 alors
+                quitter la boucle
+            sinon
+                tab[i] <- var;
+            fin si
+        fin pour
+        pour y < i faire
+            si isPremier(tab[y]) alors
+                ecrire "C'est un nombre premier : " + tab[y]
+            sinon
+                ecrire "Ce n'est pas un nombre premier : " + tab[y]
+            fin si
+        fin pour
+    
+    fonction main()
+        thread1 <- creationThread(fonction_du_thread())
+        i <- 0
+        faire
+            i <- i + 1
+            attendre(1s)
+        tant que thread1 fonctionne
+        fermer le thread1
+        ecrire "Temps d'execution : " + i + " seconde"
+        ecrire "Fin du programme"
+
 ```
 
 #### Résultat
 
 ```
+    Entrée les nombres du tableau, pour terminer taper 0
+    17
+    25
+    16
+    0
+    C'est un nombre premier : 17
+    Ce n'est pas un nombre premier : 25
+    Ce n'est pas un nombre premier : 16
+    Temps d'execution : 9 seconde
+    Fin du programme
 ```
 
 ---
