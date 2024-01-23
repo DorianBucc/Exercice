@@ -7,6 +7,9 @@ Consigne sous forme d'algorithme.
 
 Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/DorianBucc/Project)
 
+
+</br>
+
 ---
 
 ## Exercice 1
@@ -40,6 +43,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
     -------------
 ```
 
+</br>
+
 ---
 
 ## Exercice 2
@@ -63,6 +68,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 ```
     Bonjour le monde
 ```
+
+</br>
 
 ---
 
@@ -111,6 +118,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
     R1 200 km/h
     Man 80 km/h
 ```
+
+</br>
 
 ---
 
@@ -182,6 +191,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
     Fin du programme
 ```
 
+</br>
+
 ---
 
 ## Exercice 5
@@ -197,6 +208,8 @@ Pour voir mes projets aller sur mon répertoire [*Project*](https://github.com/D
 
 ```
 ```
+
+</br>
 
 ---
 
